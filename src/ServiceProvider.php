@@ -18,7 +18,7 @@ class ServiceProvider extends IlluminateServiceProvider
         if ($this->app->runningInConsole()) {
             if ($this->app instanceof Laravel) {
                 $this->publishes([
-                    __DIR__ . '/Config/quetface-sdk' => config_path('quetface-sdk.php')
+                    __DIR__ . '/Config/quetface-sdk.php' => config_path('quetface-sdk.php')
                 ], 'config');
             }
         }
