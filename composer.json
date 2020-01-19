@@ -3,7 +3,7 @@
     "description": "SDK quetface for laravel",
     "type": "library",
     "require": {
-        "quetface/quetface-sdk": "^1.1.1"
+        "quetface/quetface-sdk": "^1.1"
     },
     "require-dev": {
         "orchestra/testbench": "^4.0",

@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "985139d61dbce4903748ad7c50c52227",
+    "content-hash": "b06f4b1213e87aeb07c56931b00ffdb0",
     "packages": [
         {
             "name": "quetface/quetface-sdk",
-            "version": "v1.1.1",
+            "version": "v1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/boytunghc/quetface-sdk.git",
-                "reference": "12a7cde817c0f5ef6b30c5fb31c0845657ec0227"
+                "reference": "2bef2178ae43572b8fafc9e751282374c2f1ab47"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/boytunghc/quetface-sdk/zipball/12a7cde817c0f5ef6b30c5fb31c0845657ec0227",
-                "reference": "12a7cde817c0f5ef6b30c5fb31c0845657ec0227",
+                "url": "https://api.github.com/repos/boytunghc/quetface-sdk/zipball/2bef2178ae43572b8fafc9e751282374c2f1ab47",
+                "reference": "2bef2178ae43572b8fafc9e751282374c2f1ab47",
                 "shasum": ""
             },
             "require": {
@@ -37,7 +37,7 @@
                 }
             ],
             "description": "SDK quetface",
-            "time": "2020-01-19T06:51:59+00:00"
+            "time": "2020-01-19T08:53:37+00:00"
         }
     ],
     "packages-dev": [
