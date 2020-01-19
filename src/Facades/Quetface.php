@@ -9,7 +9,7 @@ namespace Quetface\Laravel\Facades;
  */
 class Quetface extends \Illuminate\Support\Facades\Facade
 {
-    protected function getFacadeAccessor()
+    protected static function getFacadeAccessor()
     {
         return 'quetface';
     }
