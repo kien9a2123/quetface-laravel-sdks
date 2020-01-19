@@ -1,0 +1,31 @@
+{
+    "name": "quetface/laravel-quetface-sdk",
+    "description": "SDK quetface for laravel",
+    "type": "library",
+    "require": {
+        "quetface/quetface-sdk": "^1.1.1"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0",
+        "laravel/framework": "^6.0"
+    },
+    "authors": [
+        {
+            "name": "Alex",
+            "email": "boytunghc@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Quetface\\Laravel\\": "src/"}
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Quetface\\Laravel\\ServiceProvider"
+            ],
+            "aliases": {
+                "Quetface": "Quetface\\Laravel\\Facades\\Quetface"
+            }
+        }
+    }
+}
